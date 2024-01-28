@@ -29,7 +29,6 @@ public class SpringIntroApplication {
 		ICustomerService customerService = context.getBean("service",ICustomerService.class);
 		customerService.add();
 
-		System.out.println("Selamlar size nasıl yardımcı olabilirim");
 
 		//CustomerManager manager = new CustomerManager(context.getBean("database",ICustomerDal.class));
 		//manager.add();
